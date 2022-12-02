@@ -10,6 +10,5 @@ if __name__ == "__main__":
         print("{:d} argument:".format(n -1))
     else:
         print("{:d} arguments:".format(n -1))
-
     for x in range(1, n):
         print("{:d}: {}".format(x, sys.argv[x]))
