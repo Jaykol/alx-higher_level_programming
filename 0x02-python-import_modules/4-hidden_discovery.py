@@ -6,4 +6,4 @@ if __name__ == "__main__":
     for name in dir():
         if name[0:2] == "__":
             continue
-        print(name)
+        print(sorted(name))
