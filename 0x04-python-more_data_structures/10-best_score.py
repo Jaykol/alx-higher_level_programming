@@ -1,4 +1,8 @@
 #!/usr/bin/python3
 
 def best_score(a_dictionary):
-    return sorted(a_dictionary.key()[-1])
+    for k in a_dictionary:
+        if k == NULL:
+            return None
+        else:
+            return k
