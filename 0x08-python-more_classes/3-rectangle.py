@@ -49,5 +49,4 @@ class Rectangle:
         if w == 0 or h == 0:
             return 0
 
-        return (w * 2) + (h * 2)
-
+        return '{}{}'.format(('#' * w + '\n') * (h - 1), '#' * w)
